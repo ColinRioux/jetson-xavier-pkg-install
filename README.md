@@ -4,6 +4,7 @@ How to install and/or upgrade select packages on the NVIDIA Jetson Xavier platfo
 ### Index
 - [conda](conda.md)
 - [CUDA](CUDA.md)
+- [LLVM](LLVM.md)
 - [numpy](numpy.md)
 - [PyTorch](PyTorch.md)
 - [torchvision](PyTorch.md)
