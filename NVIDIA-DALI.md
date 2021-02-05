@@ -31,6 +31,11 @@ $ cd ../
 ```bash
 $ docker run -it --rm sdkmanager:latest --cli downloadonly --logintype devzone --product Jetson --version 4.5 --targetos Linux --host --target P3668-0001 --flash all --additionalsdk DeepStream
 ```
+If the above command does not work, run:
+```bash
+$ docker run -it --rm sdkmanager:latest --query
+```
+And pick the command for your target platform (at time of writing, Jetson Xavier NX is p3668-0001)
 
 4. Follow the steps [here](https://docs.nvidia.com/deeplearning/dali/user-guide/docs/compilation.html#setup) to compile a DALI wheel for cuda 10
 
