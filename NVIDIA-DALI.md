@@ -29,7 +29,7 @@ $ cd ../
 
 3. Run the SDK manager and download the appropriate deb execs for cross-compiling dali for aarch64 with cuda 10
 ```bash
-$ docker run -it --rm sdkmanager:latest --cli downloadonly --logintype devzone --product Jetson --version 4.5 --targetos Linux --host --target P3668-0001 --flash all --additionalsdk DeepStream
+$ docker run -v ~/Downloads:/home/nvidia/Downloads -it --rm sdkmanager:latest --cli downloadonly --logintype devzone --product Jetson --version 4.5 --targetos Linux --host --target P3668-0001 --flash all --additionalsdk DeepStream
 ```
 If the above command does not work, run:
 ```bash
