@@ -8,4 +8,5 @@ How to install and/or upgrade select packages on the NVIDIA Jetson Xavier platfo
 - [NVIDIA-DALI](NVIDIA-DALI.md)
 - [numpy](numpy.md)
 - [PyTorch](PyTorch.md)
+- [TensorRt](tensorrt.md)
 - [torchvision](PyTorch.md)
