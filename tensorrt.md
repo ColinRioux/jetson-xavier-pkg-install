@@ -14,3 +14,6 @@ $ vi tensorrt.pth
 $ conda activate <your env name>
 $ pip list # verify tensorrt is on the list
 ```
+
+## Some Useful Guides
+[Torch to Onnx to TrT Demo by NVIDIA](https://github.com/NVIDIA/TensorRT/blob/master/quickstart/IntroNotebooks/4.%20Using%20PyTorch%20through%20ONNX.ipynb)
